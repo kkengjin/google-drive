@@ -5,9 +5,9 @@ import java.util.*;
 import lombok.Data;
 
 @Data
-public class FilIndexed extends AbstractEvent {
+public class FileIndexed extends AbstractEvent {
 
     private Long id;
-    private String file_id;
+    private Long fileId;
     private List<String> keywords;
 }
